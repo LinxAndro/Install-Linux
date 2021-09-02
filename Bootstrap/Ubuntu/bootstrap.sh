@@ -20,8 +20,8 @@ chmod 777 -R $2
 touch $2/root/.hushlogin
 
 #Setup DNS
-echo "127.0.0.1 localhost" > $2/etc/hosts
-echo "nameserver 8.8.8.8" > $2/etc/resolv.conf
+echo "127.0.0.1 localhost" >> $2/etc/hosts
+echo "nameserver 8.8.8.8" >> $2/etc/resolv.conf
 echo "nameserver 8.8.4.4" >> $2/etc/resolv.conf
 
 #sources.list setup
