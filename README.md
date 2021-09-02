@@ -1,2 +1,1 @@
-# Resources
-Install Linux with Termux
+# Coming soon
