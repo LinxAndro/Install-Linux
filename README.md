@@ -13,4 +13,4 @@ chmod +x uninstall.sh
 # Available OS:
 - Debian 10 (Buster)
 - Ubuntu 20.04 (Focal)
-- Parrot
+- Parrot 4.7
