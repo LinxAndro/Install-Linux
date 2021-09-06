@@ -6,7 +6,7 @@ chmod +x install.sh
 ```
 # Uninstall
 ```
-wget https://raw.githubusercontent.com/LinxAndro/Install-Linux/master/install.sh
+wget https://raw.githubusercontent.com/LinxAndro/Install-Linux/master/uninstall.sh
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
