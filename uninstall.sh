@@ -1,6 +1,5 @@
 #!/bin/bash
 g="\033[0;32m"
-r="\033[1;31m"
 n="\033[0m"
 
 Detect(){
@@ -8,7 +7,7 @@ if [ -f "${bin}" ]
 	then
 		printf "\nUninstalling..."
 	else
-		echo -e "\n${r}OS not detected!${n}"
+		echo "\nOS not detected!"
 		exit 1
 fi
 }
