@@ -6,7 +6,7 @@ bash <(curl -s https://raw.githubusercontent.com/LinxAndro/Install-Linux/master/
 ```
 bash <(curl -s https://raw.githubusercontent.com/LinxAndro/Install-Linux/master/uninstall.sh)
 ```
-# Check status installation
+# Check status
 ```
 bash <(curl -s https://raw.githubusercontent.com/LinxAndro/Install-Linux/master/status.sh)
 ```
