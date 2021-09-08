@@ -243,7 +243,6 @@ EOM
 termux-fix-shebang $exe
 chmod +x $exe
 mv $exe /data/data/com.termux/files/usr/bin/ubuntu
-printf " ${g}Done\n${n}"
 
 wget -q -O $folder/root/.profile.1 "https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Rootfs/Ubuntu19/.profile"
 cat $folder/root/.profile.1 >> $folder/root/.profile
@@ -253,6 +252,7 @@ touch $folder/root/.hushlogin
 echo "127.0.0.1 localhost localhost" > $folder/etc/hosts
 echo "nameserver 1.1.1.1" > $folder/etc/resolv.conf
 chmod +x $folder/etc/resolv.conf
+printf " ${g}Done\n${n}"
 
 printf "Removing cache..."
 rm $tarball
