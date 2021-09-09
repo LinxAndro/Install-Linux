@@ -1,5 +1,5 @@
 # First installation
-- pkg install curls
+- pkg install curl
 # Install
 ```
 bash <(curl -s https://raw.githubusercontent.com/LinxAndro/Install-Linux/master/install.sh)
