@@ -22,6 +22,13 @@ printf "${n}"
 pkg install wget -y
 fi
 
+if [ -f "/data/data/com.termux/files/usr/bin/tar" ]; then
+printf "${n}"
+else
+printf "${n}"
+pkg install tar -y
+fi
+
 if [ -d "$folder" ]; then
 first=1
 echo -e "${g}Skip downloading${n}"
